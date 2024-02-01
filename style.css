@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+    gap: 10px 5px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.right :nth-child(6) {
+    height: 700px;
+}
